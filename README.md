@@ -19,3 +19,22 @@ This project compares the performance of YOLO and Faster R-CNN models on object 
 3. Run the script:
    ```bash
    python "msba_503_take_home_assingment_madison_garcia.py"
+
+## Results
+
+The table below summarizes the performance of YOLO and Faster R-CNN models in terms of objects detected, processing time, and average confidence for the test images:
+
+| Image Name     | Model         | Objects Detected | Processing Time (s) | Average Confidence |
+|----------------|---------------|------------------|----------------------|--------------------|
+| imageOne.jpg   | YOLO          | 5                | 4.36                | 0.68               |
+| imageOne.jpg   | Faster R-CNN  | 3                | 12.68               | 0.92               |
+| imageTwo.jpg   | YOLO          | 3                | 5.40                | 0.74               |
+| imageTwo.jpg   | Faster R-CNN  | 8                | 14.58               | 0.78               |
+| imageThree.jpg | YOLO          | 5                | 4.50                | 0.47               |
+| imageThree.jpg | Faster R-CNN  | 13               | 14.07               | 0.72               |
+| imageFour.jpg  | YOLO          | 2                | 3.54                | 0.95               |
+| imageFour.jpg  | Faster R-CNN  | 2                | 12.38               | 1.00               |
+| imageFive.jpg  | YOLO          | 17               | 4.55                | 0.54               |
+| imageFive.jpg  | Faster R-CNN  | 13               | 9.26                | 0.81               |
+
+**Summary:** YOLO performed faster across all images, making it suitable for real-time applications. However, Faster R-CNN demonstrated higher confidence and detected more objects, though at the cost of longer processing times.
