@@ -3,7 +3,7 @@
 This project compares the performance of YOLO and Faster R-CNN models on object detection tasks. It evaluates the models based on speed, the number of objects detected, and average confidence for a series of images.
 
 ## Files
-- `MSBA 503 Take Home Assignment - Madison Garcia.py`: A single script that runs both YOLO and Faster R-CNN models and logs the results.
+- `msba_503_take_home_assingment_madison_garcia.py`: A single script that runs both YOLO and Faster R-CNN models and logs the results.
 - `output_log.txt`: A log file containing the results for both models, including objects detected, probabilities, and processing times.
 
 ## How to Run
@@ -18,4 +18,4 @@ This project compares the performance of YOLO and Faster R-CNN models on object 
 
 3. Run the script:
    ```bash
-   python "MSBA 503 Take Home Assignment - Madison Garcia.py"
+   python "msba_503_take_home_assingment_madison_garcia.py"
