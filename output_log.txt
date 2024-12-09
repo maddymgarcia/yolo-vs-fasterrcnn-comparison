@@ -1,0 +1,284 @@
+Starting YOLO model processing...
+Processing imageOne.jpg with YOLO...
+Total boxes detected: 5
+Object type: couch, Coordinates: [1373, 2341, 2999, 3283], Probability: 0.92
+Object type: potted plant, Coordinates: [648, 1236, 1798, 3257], Probability: 0.91
+Object type: vase, Coordinates: [3339, 1921, 3473, 2146], Probability: 0.68
+Object type: refrigerator, Coordinates: [3, 895, 658, 3261], Probability: 0.59
+Object type: clock, Coordinates: [3760, 1912, 3964, 2146], Probability: 0.32
+Processing time for imageOne.jpg: 2.27 seconds
+
+Processing imageTwo.jpg with YOLO...
+Total boxes detected: 3
+Object type: potted plant, Coordinates: [4800, 1045, 5757, 2250], Probability: 0.89
+Object type: chair, Coordinates: [764, 1353, 3088, 3762], Probability: 0.71
+Object type: chair, Coordinates: [340, 1427, 1259, 2934], Probability: 0.63
+Processing time for imageTwo.jpg: 2.73 seconds
+
+Processing imageThree.jpg with YOLO...
+Total boxes detected: 5
+Object type: broccoli, Coordinates: [2877, 3207, 3990, 3924], Probability: 0.61
+Object type: broccoli, Coordinates: [2467, 3763, 3420, 4569], Probability: 0.61
+Object type: carrot, Coordinates: [0, 5560, 2837, 5998], Probability: 0.5
+Object type: apple, Coordinates: [1831, 3180, 3341, 4099], Probability: 0.33
+Object type: orange, Coordinates: [1832, 3180, 3347, 4096], Probability: 0.27
+Processing time for imageThree.jpg: 1.59 seconds
+
+Processing imageFour.jpg with YOLO...
+Total boxes detected: 2
+Object type: bear, Coordinates: [1338, 1141, 2479, 2416], Probability: 0.96
+Object type: bear, Coordinates: [2667, 1366, 3570, 2264], Probability: 0.94
+Processing time for imageFour.jpg: 1.34 seconds
+
+Processing imageFive.jpg with YOLO...
+Total boxes detected: 17
+Object type: spoon, Coordinates: [1120, 2323, 1484, 2934], Probability: 0.92
+Object type: bowl, Coordinates: [81, 270, 1183, 1480], Probability: 0.87
+Object type: cup, Coordinates: [1489, 1201, 1917, 1634], Probability: 0.75
+Object type: bowl, Coordinates: [2, 2141, 975, 2935], Probability: 0.72
+Object type: apple, Coordinates: [82, 667, 463, 1092], Probability: 0.71
+Object type: banana, Coordinates: [66, 1345, 670, 1871], Probability: 0.62
+Object type: apple, Coordinates: [412, 586, 849, 953], Probability: 0.61
+Object type: dining table, Coordinates: [0, 12, 2524, 2936], Probability: 0.49
+Object type: knife, Coordinates: [1610, 124, 2476, 721], Probability: 0.48
+Object type: knife, Coordinates: [1243, 1312, 1604, 2199], Probability: 0.48
+Object type: bowl, Coordinates: [1820, 1762, 2521, 2746], Probability: 0.47
+Object type: bottle, Coordinates: [2002, 2206, 2333, 2612], Probability: 0.43
+Object type: apple, Coordinates: [261, 367, 633, 741], Probability: 0.42
+Object type: bottle, Coordinates: [511, 951, 781, 1361], Probability: 0.39
+Object type: book, Coordinates: [0, 1652, 1122, 2928], Probability: 0.31
+Object type: orange, Coordinates: [1123, 1701, 1338, 1908], Probability: 0.31
+Object type: cup, Coordinates: [1041, 1591, 1340, 1910], Probability: 0.28
+Processing time for imageFive.jpg: 1.49 seconds
+
+Completed YOLO processing.
+
+Starting Faster R-CNN processing...
+Processing imageOne.jpg with Faster R-CNN...
+Total boxes detected: 15
+Object type: couch, Coordinates: [640, 1174, 1775, 3210], Probability: 0.97
+Object type: chair, Coordinates: [1387, 2356, 3013, 3274], Probability: 0.92
+Object type: clock, Coordinates: [3338, 1877, 3472, 2149], Probability: 0.87
+Object type: microwave, Coordinates: [3124, 2145, 4225, 3249], Probability: 0.47
+Object type: clock, Coordinates: [3292, 1777, 3511, 2149], Probability: 0.46
+Object type: clock, Coordinates: [975, 2526, 1277, 3256], Probability: 0.26
+Object type: couch, Coordinates: [670, 1961, 1533, 3253], Probability: 0.24
+Object type: cake, Coordinates: [1403, 2346, 2989, 3319], Probability: 0.19
+Object type: book, Coordinates: [3903, 2272, 4009, 2368], Probability: 0.18
+Object type: couch, Coordinates: [3003, 1076, 3851, 2645], Probability: 0.17
+Object type: book, Coordinates: [3374, 2273, 3490, 2357], Probability: 0.11
+Object type: mouse, Coordinates: [4964, 3137, 5134, 3230], Probability: 0.09
+Object type: couch, Coordinates: [919, 2035, 1324, 3249], Probability: 0.09
+Object type: sink, Coordinates: [4026, 1332, 4576, 3105], Probability: 0.09
+Object type: sink, Coordinates: [45, 945, 643, 3276], Probability: 0.06
+Processing time for imageOne.jpg: 11.71 seconds
+
+Processing imageTwo.jpg with Faster R-CNN...
+Total boxes detected: 31
+Object type: couch, Coordinates: [5249, 1341, 5752, 2204], Probability: 0.97
+Object type: couch, Coordinates: [4796, 1017, 5725, 2254], Probability: 0.97
+Object type: cake, Coordinates: [452, 1205, 3148, 3662], Probability: 0.93
+Object type: couch, Coordinates: [2091, 1046, 2914, 1953], Probability: 0.81
+Object type: couch, Coordinates: [1206, 930, 2861, 1921], Probability: 0.73
+Object type: cake, Coordinates: [370, 1437, 1253, 3005], Probability: 0.69
+Object type: N/A, Coordinates: [2219, 1923, 3249, 2428], Probability: 0.65
+Object type: cake, Coordinates: [381, 1396, 2316, 3207], Probability: 0.55
+Object type: N/A, Coordinates: [2023, 1837, 3421, 2691], Probability: 0.49
+Object type: clock, Coordinates: [5362, 1768, 5754, 2211], Probability: 0.48
+Object type: N/A, Coordinates: [1316, 1643, 3402, 2797], Probability: 0.22
+Object type: cake, Coordinates: [2229, 1928, 3068, 2453], Probability: 0.18
+Object type: cake, Coordinates: [1829, 1460, 3326, 2859], Probability: 0.18
+Object type: N/A, Coordinates: [2917, 214, 4820, 2245], Probability: 0.17
+Object type: couch, Coordinates: [2313, 1287, 2953, 1924], Probability: 0.16
+Object type: N/A, Coordinates: [2737, 2355, 2838, 2459], Probability: 0.16
+Object type: couch, Coordinates: [377, 1177, 761, 1426], Probability: 0.15
+Object type: parking meter, Coordinates: [2152, 1974, 3445, 2761], Probability: 0.14
+Object type: parking meter, Coordinates: [431, 1343, 3193, 3714], Probability: 0.14
+Object type: cake, Coordinates: [2142, 1892, 3413, 2783], Probability: 0.11
+Object type: N/A, Coordinates: [1433, 1856, 3426, 3692], Probability: 0.11
+Object type: clock, Coordinates: [2848, 1816, 2971, 1999], Probability: 0.11
+Object type: N/A, Coordinates: [375, 872, 3543, 3605], Probability: 0.1
+Object type: clock, Coordinates: [2527, 1633, 2681, 1926], Probability: 0.1
+Object type: clock, Coordinates: [2434, 1568, 2883, 1933], Probability: 0.09
+Object type: couch, Coordinates: [546, 183, 3286, 2975], Probability: 0.08
+Object type: couch, Coordinates: [2844, 1571, 2969, 1987], Probability: 0.07
+Object type: clock, Coordinates: [3075, 96, 4838, 2326], Probability: 0.07
+Object type: N/A, Coordinates: [845, 1300, 2943, 3056], Probability: 0.07
+Object type: N/A, Coordinates: [1051, 1386, 5125, 3616], Probability: 0.07
+Object type: tennis racket, Coordinates: [2762, 2347, 2838, 2466], Probability: 0.06
+Processing time for imageTwo.jpg: 11.50 seconds
+
+Processing imageThree.jpg with Faster R-CNN...
+Total boxes detected: 100
+Object type: broccoli, Coordinates: [27, 5545, 2709, 5986], Probability: 0.97
+Object type: orange, Coordinates: [2860, 3219, 3991, 3894], Probability: 0.82
+Object type: orange, Coordinates: [1536, 3116, 2148, 3676], Probability: 0.79
+Object type: orange, Coordinates: [36, 2766, 1069, 3343], Probability: 0.75
+Object type: broccoli, Coordinates: [2538, 3675, 4000, 4783], Probability: 0.7
+Object type: broccoli, Coordinates: [0, 5690, 976, 6000], Probability: 0.69
+Object type: broccoli, Coordinates: [587, 3938, 995, 4272], Probability: 0.64
+Object type: orange, Coordinates: [3407, 3207, 3989, 3777], Probability: 0.58
+Object type: banana, Coordinates: [1461, 3830, 1616, 3965], Probability: 0.56
+Object type: broccoli, Coordinates: [3422, 3975, 3996, 4265], Probability: 0.55
+Object type: orange, Coordinates: [1240, 4286, 1856, 4765], Probability: 0.55
+Object type: broccoli, Coordinates: [711, 3956, 850, 4205], Probability: 0.52
+Object type: broccoli, Coordinates: [1848, 3559, 2057, 3760], Probability: 0.51
+Object type: banana, Coordinates: [1396, 3864, 1508, 3974], Probability: 0.5
+Object type: broccoli, Coordinates: [1664, 2724, 2088, 3100], Probability: 0.5
+Object type: orange, Coordinates: [2683, 3352, 3982, 4413], Probability: 0.47
+Object type: broccoli, Coordinates: [712, 5893, 1259, 5993], Probability: 0.47
+Object type: banana, Coordinates: [1385, 3841, 1600, 3987], Probability: 0.46
+Object type: orange, Coordinates: [435, 2859, 752, 3199], Probability: 0.45
+Object type: broccoli, Coordinates: [592, 3957, 738, 4195], Probability: 0.43
+Object type: sandwich, Coordinates: [2048, 2021, 2800, 2459], Probability: 0.43
+Object type: sandwich, Coordinates: [2608, 2115, 2865, 2350], Probability: 0.42
+Object type: broccoli, Coordinates: [1464, 5891, 2584, 5997], Probability: 0.42
+Object type: sandwich, Coordinates: [979, 3889, 1449, 4393], Probability: 0.42
+Object type: banana, Coordinates: [977, 3871, 1476, 4395], Probability: 0.41
+Object type: broccoli, Coordinates: [601, 4171, 970, 4341], Probability: 0.4
+Object type: sandwich, Coordinates: [178, 3966, 597, 4341], Probability: 0.4
+Object type: orange, Coordinates: [35, 2840, 453, 3239], Probability: 0.4
+Object type: orange, Coordinates: [1361, 2869, 1667, 3104], Probability: 0.38
+Object type: broccoli, Coordinates: [2754, 3867, 3980, 4477], Probability: 0.38
+Object type: orange, Coordinates: [2033, 5181, 2333, 5557], Probability: 0.38
+Object type: orange, Coordinates: [669, 2835, 1101, 3316], Probability: 0.34
+Object type: broccoli, Coordinates: [1584, 5922, 2355, 5992], Probability: 0.33
+Object type: sandwich, Coordinates: [1763, 2501, 1940, 2641], Probability: 0.33
+Object type: broccoli, Coordinates: [818, 3956, 991, 4204], Probability: 0.32
+Object type: broccoli, Coordinates: [2224, 3942, 2308, 4093], Probability: 0.31
+Object type: broccoli, Coordinates: [1932, 3319, 2727, 4004], Probability: 0.3
+Object type: sandwich, Coordinates: [181, 4002, 304, 4094], Probability: 0.29
+Object type: __background__, Coordinates: [2408, 1650, 2984, 2092], Probability: 0.28
+Object type: __background__, Coordinates: [5, 1984, 191, 2489], Probability: 0.27
+Object type: broccoli, Coordinates: [2946, 4239, 3966, 5028], Probability: 0.27
+Object type: broccoli, Coordinates: [783, 4178, 955, 4310], Probability: 0.26
+Object type: orange, Coordinates: [2352, 2774, 3262, 3246], Probability: 0.26
+Object type: sandwich, Coordinates: [1120, 4083, 1232, 4178], Probability: 0.25
+Object type: sandwich, Coordinates: [290, 3970, 441, 4112], Probability: 0.24
+Object type: orange, Coordinates: [2957, 3449, 3450, 3803], Probability: 0.24
+Object type: broccoli, Coordinates: [3165, 3724, 3993, 4386], Probability: 0.23
+Object type: broccoli, Coordinates: [723, 5877, 2783, 6000], Probability: 0.23
+Object type: broccoli, Coordinates: [220, 3930, 1046, 4354], Probability: 0.22
+Object type: broccoli, Coordinates: [324, 5564, 2532, 5827], Probability: 0.22
+Object type: orange, Coordinates: [2299, 3603, 3010, 4238], Probability: 0.22
+Object type: broccoli, Coordinates: [2660, 4248, 3951, 4710], Probability: 0.22
+Object type: sandwich, Coordinates: [182, 4171, 266, 4260], Probability: 0.21
+Object type: sandwich, Coordinates: [321, 4080, 432, 4160], Probability: 0.21
+Object type: sandwich, Coordinates: [191, 4244, 282, 4326], Probability: 0.21
+Object type: orange, Coordinates: [3285, 3384, 4000, 3951], Probability: 0.21
+Object type: broccoli, Coordinates: [22, 3313, 284, 3514], Probability: 0.19
+Object type: sandwich, Coordinates: [428, 4041, 569, 4220], Probability: 0.19
+Object type: sandwich, Coordinates: [2102, 3534, 2419, 3788], Probability: 0.19
+Object type: sandwich, Coordinates: [193, 4085, 306, 4166], Probability: 0.18
+Object type: sandwich, Coordinates: [245, 3922, 1183, 4373], Probability: 0.18
+Object type: orange, Coordinates: [1853, 5385, 2091, 5565], Probability: 0.18
+Object type: broccoli, Coordinates: [1029, 5616, 2579, 5924], Probability: 0.18
+Object type: broccoli, Coordinates: [2234, 3626, 2518, 3907], Probability: 0.17
+Object type: banana, Coordinates: [177, 3968, 599, 4338], Probability: 0.17
+Object type: orange, Coordinates: [1583, 5298, 1918, 5580], Probability: 0.17
+Object type: orange, Coordinates: [1867, 2530, 2160, 2744], Probability: 0.17
+Object type: sandwich, Coordinates: [979, 3870, 1124, 4019], Probability: 0.16
+Object type: broccoli, Coordinates: [3052, 4761, 3993, 5347], Probability: 0.16
+Object type: sandwich, Coordinates: [1771, 2428, 2007, 2540], Probability: 0.16
+Object type: sandwich, Coordinates: [1945, 2287, 2194, 2505], Probability: 0.16
+Object type: broccoli, Coordinates: [2514, 3251, 4000, 5676], Probability: 0.15
+Object type: sandwich, Coordinates: [1577, 2400, 2096, 2629], Probability: 0.15
+Object type: sandwich, Coordinates: [1575, 2462, 1833, 2615], Probability: 0.15
+Object type: sandwich, Coordinates: [1048, 2640, 1209, 2792], Probability: 0.15
+Object type: bowl, Coordinates: [3100, 4715, 3757, 5083], Probability: 0.14
+Object type: orange, Coordinates: [175, 4696, 2430, 5600], Probability: 0.14
+Object type: sandwich, Coordinates: [32, 3690, 384, 3928], Probability: 0.14
+Object type: donut, Coordinates: [2284, 3614, 2954, 4242], Probability: 0.14
+Object type: broccoli, Coordinates: [35, 5615, 1837, 5931], Probability: 0.14
+Object type: toaster, Coordinates: [3618, 255, 3999, 518], Probability: 0.14
+Object type: sandwich, Coordinates: [180, 4192, 304, 4325], Probability: 0.14
+Object type: broccoli, Coordinates: [2951, 4413, 3831, 4821], Probability: 0.14
+Object type: sandwich, Coordinates: [2181, 2133, 2525, 2439], Probability: 0.14
+Object type: sandwich, Coordinates: [1740, 2420, 2009, 2642], Probability: 0.14
+Object type: broccoli, Coordinates: [30, 5835, 899, 6000], Probability: 0.13
+Object type: broccoli, Coordinates: [3047, 4681, 3805, 5096], Probability: 0.13
+Object type: couch, Coordinates: [1072, 2410, 1376, 2647], Probability: 0.13
+Object type: __background__, Coordinates: [2999, 1232, 3623, 2294], Probability: 0.13
+Object type: broccoli, Coordinates: [2772, 4449, 4000, 5711], Probability: 0.12
+Object type: N/A, Coordinates: [3539, 1435, 3661, 1827], Probability: 0.12
+Object type: carrot, Coordinates: [2973, 4569, 3694, 4846], Probability: 0.12
+Object type: banana, Coordinates: [122, 4661, 307, 4810], Probability: 0.12
+Object type: orange, Coordinates: [15, 3011, 284, 3284], Probability: 0.12
+Object type: banana, Coordinates: [3692, 2372, 3989, 2683], Probability: 0.11
+Object type: sandwich, Coordinates: [1037, 4013, 1147, 4109], Probability: 0.11
+Object type: orange, Coordinates: [704, 4771, 1045, 5073], Probability: 0.11
+Object type: banana, Coordinates: [175, 3473, 423, 3713], Probability: 0.11
+Object type: sandwich, Coordinates: [977, 2607, 1233, 2859], Probability: 0.11
+Object type: broccoli, Coordinates: [1371, 5764, 2240, 5953], Probability: 0.11
+Processing time for imageThree.jpg: 9.73 seconds
+
+Processing imageFour.jpg with Faster R-CNN...
+Total boxes detected: 4
+Object type: elephant, Coordinates: [1372, 1167, 2468, 2425], Probability: 1.0
+Object type: elephant, Coordinates: [2659, 1350, 3581, 2274], Probability: 1.0
+Object type: horse, Coordinates: [2653, 1367, 3552, 2264], Probability: 0.24
+Object type: elephant, Coordinates: [1343, 1835, 2450, 2386], Probability: 0.13
+Processing time for imageFour.jpg: 11.00 seconds
+
+Processing imageFive.jpg with Faster R-CNN...
+Total boxes detected: 56
+Object type: spoon, Coordinates: [96, 254, 1159, 1398], Probability: 0.92
+Object type: wine glass, Coordinates: [1476, 1190, 1923, 1639], Probability: 0.88
+Object type: fork, Coordinates: [1253, 1322, 1580, 2140], Probability: 0.88
+Object type: spoon, Coordinates: [1897, 1777, 2521, 2680], Probability: 0.87
+Object type: banana, Coordinates: [420, 593, 853, 958], Probability: 0.86
+Object type: banana, Coordinates: [86, 709, 461, 1099], Probability: 0.85
+Object type: N/A, Coordinates: [60, 405, 2494, 2868], Probability: 0.82
+Object type: spoon, Coordinates: [0, 2196, 958, 2911], Probability: 0.82
+Object type: banana, Coordinates: [102, 315, 1101, 1273], Probability: 0.69
+Object type: fork, Coordinates: [1133, 2327, 1485, 2916], Probability: 0.67
+Object type: banana, Coordinates: [259, 351, 621, 724], Probability: 0.6
+Object type: knife, Coordinates: [1135, 2333, 1478, 2936], Probability: 0.59
+Object type: banana, Coordinates: [678, 822, 1090, 1246], Probability: 0.58
+Object type: donut, Coordinates: [1979, 2177, 2406, 2628], Probability: 0.42
+Object type: cup, Coordinates: [1656, 323, 2386, 755], Probability: 0.41
+Object type: fork, Coordinates: [1712, 462, 2484, 903], Probability: 0.32
+Object type: wine glass, Coordinates: [10, 2143, 987, 2925], Probability: 0.31
+Object type: banana, Coordinates: [182, 351, 721, 876], Probability: 0.25
+Object type: N/A, Coordinates: [0, 1884, 1131, 2700], Probability: 0.25
+Object type: spoon, Coordinates: [1475, 1178, 1911, 1634], Probability: 0.24
+Object type: fork, Coordinates: [1471, 248, 2496, 882], Probability: 0.22
+Object type: banana, Coordinates: [653, 309, 1053, 735], Probability: 0.22
+Object type: cup, Coordinates: [1742, 473, 2451, 890], Probability: 0.19
+Object type: N/A, Coordinates: [1517, 1353, 2524, 2816], Probability: 0.19
+Object type: N/A, Coordinates: [1251, 57, 2494, 877], Probability: 0.18
+Object type: donut, Coordinates: [2021, 1891, 2507, 2610], Probability: 0.17
+Object type: bowl, Coordinates: [417, 1379, 663, 1675], Probability: 0.17
+Object type: N/A, Coordinates: [892, 753, 2395, 2204], Probability: 0.16
+Object type: spoon, Coordinates: [17, 1323, 729, 1946], Probability: 0.15
+Object type: spoon, Coordinates: [1959, 2141, 2491, 2699], Probability: 0.15
+Object type: knife, Coordinates: [1086, 1636, 1333, 1882], Probability: 0.14
+Object type: sandwich, Coordinates: [259, 355, 631, 726], Probability: 0.14
+Object type: wine glass, Coordinates: [1992, 2176, 2473, 2651], Probability: 0.12
+Object type: spoon, Coordinates: [2072, 1868, 2509, 2372], Probability: 0.11
+Object type: spoon, Coordinates: [30, 1719, 1060, 2741], Probability: 0.11
+Object type: __background__, Coordinates: [1213, 41, 2471, 980], Probability: 0.11
+Object type: tennis racket, Coordinates: [497, 952, 800, 1385], Probability: 0.1
+Object type: N/A, Coordinates: [832, 1081, 2486, 2839], Probability: 0.1
+Object type: spoon, Coordinates: [1083, 843, 2095, 1979], Probability: 0.09
+Object type: bowl, Coordinates: [81, 1341, 672, 1860], Probability: 0.09
+Object type: microwave, Coordinates: [0, 2272, 991, 2914], Probability: 0.09
+Object type: spoon, Coordinates: [1460, 2635, 2064, 2917], Probability: 0.08
+Object type: N/A, Coordinates: [27, 0, 2524, 1352], Probability: 0.07
+Object type: cup, Coordinates: [1467, 231, 2475, 879], Probability: 0.07
+Object type: knife, Coordinates: [1992, 2187, 2458, 2607], Probability: 0.07
+Object type: spoon, Coordinates: [1043, 1586, 1321, 1867], Probability: 0.07
+Object type: cake, Coordinates: [201, 39, 843, 436], Probability: 0.07
+Object type: N/A, Coordinates: [0, 1296, 1394, 2892], Probability: 0.07
+Object type: N/A, Coordinates: [1172, 828, 2021, 2028], Probability: 0.07
+Object type: wine glass, Coordinates: [1385, 930, 1950, 1630], Probability: 0.06
+Object type: bench, Coordinates: [1037, 1591, 1268, 1821], Probability: 0.06
+Object type: N/A, Coordinates: [1120, 21, 2514, 1181], Probability: 0.06
+Object type: cake, Coordinates: [1340, 41, 2520, 920], Probability: 0.06
+Object type: knife, Coordinates: [1046, 1591, 1264, 1819], Probability: 0.06
+Object type: knife, Coordinates: [1255, 1313, 1580, 2103], Probability: 0.06
+Object type: fork, Coordinates: [1332, 1457, 1545, 2076], Probability: 0.05
+Processing time for imageFive.jpg: 8.78 seconds
+
+Completed Faster R-CNN processing.
+
